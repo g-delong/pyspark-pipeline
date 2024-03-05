@@ -1,0 +1,18 @@
+components:
+  artifact_store:
+    configuration: {}
+    flavor: local
+    name: default
+    type: artifact_store
+  orchestrator:
+    configuration: {}
+    flavor: local_docker
+    name: docker_orchestrator
+    type: orchestrator
+  image_builder:
+    configuration: {}
+    flavor: local
+    name: local_image_builder
+    type: image_builder
+stack_name: docker_stack
+zenml_version: 0.53.1

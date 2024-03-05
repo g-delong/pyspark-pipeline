@@ -1,0 +1,4 @@
+zenml[server]==0.53.1
+pandas
+pyarrow
+pyspark
