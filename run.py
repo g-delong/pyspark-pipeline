@@ -8,9 +8,9 @@ from src.pipelines.spark_pipeline import spark_pipeline
 
 @click.command(
     help="""
-Bed Demand CLI v0.1.
+Spark Pipeline CLI v0.1.
 
-Run the Bed Demand pipeline with various
+Run the Spark Pipeline pipeline with various
 options.
 
 Examples:

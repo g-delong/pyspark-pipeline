@@ -5,7 +5,5 @@ settings:
   docker:
     required_integrations: ["aws","s3"]
     requirements: requirements.txt
-    # parent_image: jupyter/pyspark-notebook:python-3.9
-    # dockerfile: Dockerfile
     apt_packages: ["openjdk-17-jdk"]
 

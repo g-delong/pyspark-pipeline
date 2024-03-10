@@ -43,3 +43,5 @@ def load_data_local() -> DataFrame:
     print(df.show())
     return df
 
+if __name__ == "__main__":
+    load_data_local()
