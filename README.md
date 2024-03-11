@@ -14,8 +14,9 @@ conda create -n spark-pipeline python=3.9
 conda activate spark-pipeline
 # Install requirements & integrations
 make setup
-# Connect to zenml server 
-zenml init
+# Initialize zenml project, and
+# import and set docker stack
+make zen
 ```
 
 You can now run the pipeline locally: 

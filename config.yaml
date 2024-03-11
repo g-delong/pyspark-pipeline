@@ -6,4 +6,5 @@ settings:
     required_integrations: ["aws","s3"]
     requirements: requirements.txt
     apt_packages: ["openjdk-17-jdk"]
+    dockerfile: 'Dockerfile'
 

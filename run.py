@@ -57,9 +57,9 @@ def main(
 
     # Execute Pipeline
 
-    run_pipeline = spark_pipeline.with_options(
-        config_path="config.yaml"
-    ).with_options(**pipeline_args)
+    run_pipeline = spark_pipeline.with_options(config_path="config.yaml").with_options(
+        **pipeline_args
+    )
     run_pipeline()
     logging.info("Pipeline finished successfully!")
 
